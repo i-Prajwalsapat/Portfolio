@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prajwal Sapat Portfolio</title>
+    <link rel="icon" href="./assets/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="icon" href="./assets/logo-modified.png" /> -->
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+<!-----------------------------NAVBAR SECTION------------------------------------------------------->
+    <nav id="desktop-nav">
+      <div class="logo">Prajwal Sapat</div>
+      <div >
+        <ul class="nav-links">
+          <!-- <li><a href="#home">Home</a></li> -->
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a class="nav-contact" href="#contact">Contact</a>
+          <!-- <li><a href="https://github.com/i-Prajwalsapat/Certifications">Certificates</a></li></li> -->
+        </ul>
+      </div>
+    </nav>
+    <!-- <nav id="hamburger-nav">
+      <div class="logo">Prajwal Sapat</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav> -->
+<!--------------------------------PROFILE SECTION-------------------------------------------------->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img style="border-radius :100px;" src="./assets/profile photo.jpg" alt="Prajwal Sapat's profile picture" />
+      </div>  <!-- 205px-->
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 style="font-size: 3rem; font-weight: bold;" class="header-title">Prajwal Sapat</h1>
+        <p class="section__text__p2">A Full Stack Developer</p>
+        <div class="btn-container">
+          <button style="hovor:green
+          ";
+            class="btn btn-color-1"
+            onclick="window.open('./assets/Prajwal_Sapat_Resume.pdf')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/prajwal-sapat-8633b5288" target="_blank">
+            <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            />
+          </a>
+          <a href="https://github.com/i-prajwalsapat" target="_blank">
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            />
+          </a>
+          </div>
+      </div>
+    </section>
+
+<!--------------------------------------ABOUT SECTION-------------------------------------------------->  
+    <section id="about";">
+      <!--<div class="section-container">
+        <div class="section__pic-container">
+          <img
+          src="./assets/about-pic.png"
+          alt="Profile picture"
+          class="about-pic"
+          />
+        </div> -->
+        <div class="about-details-container">
+          <p class="section__text__p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+         <!--  <div class="about-containers">
+           <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in Electrical Engineering</p>
+            </div> 
+          </div>-->
+          <div class="text-container" style="margin-top: 70px; margin-top: 3%;">
+            <p>
+              Hi there, I'm Prajwal, a dedicated Electrical Engineering graduate with a passion for transitioning into the IT industry. With hands-on experience in <strong>Full Stack Development</strong> and a solid foundation in <strong>Data Structures and Algorithms</strong>, I strive to create innovative and impactful software solutions. My curiosity and commitment drive me to continuously learn and contribute meaningfully to the dynamic world of software development. Let’s build something exceptional together!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img style="color: rgb(255, 255, 255);"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+<!------------------------------------SKILLS SECTION-------------------------------------------------->  
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="Skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 style="color: white;"  class="Skills-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article  style="display: flex;
+              flex-direction: column;
+              align-items: center;">
+                <img
+                  src="./assets/html.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <!-- <p>Skills</p> -->
+                </div>
+              </article>
+              <article style="display: flex;
+              flex-direction: column;
+              align-items: center;">
+                <img
+                  src="./assets/css.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <!-- <p>Skillsd</p> -->
+                </div>
+              </article>
+              <article  style="display: flex;
+              flex-direction: column;
+              align-items: center;">
+                <img
+                  src="./assets/bootstrap.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>bootstrap</h3>
+                </div>
+              </article>
+              <article  style="display: flex;
+              flex-direction: column;
+              align-items: center;">
+                <img
+                  src="./assets/javascript.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article  style="display: flex;
+              flex-direction: column;
+              align-items: center;">
+                <img
+                  src="./assets/typescript.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article  style="display: flex;
+              flex-direction: column;
+              align-items: center;">
+                <img
+                  src="./assets/angular.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angular</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+<!------------------------------------BACKEND DEVELOPMENT DIVISION------------------------------------------> 
+          <div class="details-container">
+            <h2 style="color: white;"  class="Skills-sub-title">Backend Development</h2>
+            <div class="article-container">
+
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/java.png"
+                  alt="JAVA icon"
+                  width="40" height="40"
+                />
+                  <h3>JAVA</h3>
+                </div>
+              </article>
+
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/springBoot.png"
+                  alt="springboot icon"
+                  width="40" height="40"
+                />
+                  <h3>SpringBoot</h3>
+                </div>
+              </article>
+
+              <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                style="border-radius: 30px;"
+                  src="./assets/sql.webp"
+                  alt="SQL icon"
+                  width="40" height="40"
+                />
+                  <h3>SQL</h3>
+                </div>
+              </article>
+
+             <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/MySQL.png"
+                  alt="CSS icon"
+                  width="40" height="40"
+                />
+                  <h3>MySQL</h3>
+                </div>
+              </article> 
+              
+              <!-- <article>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                <img
+                  src="./assets/javascript.png"
+                  alt="Javascript icon"
+                  width="40" height="40"
+                />
+                  <h3>PostGreSQL</h3>
+                </div>
+              </article> -->
+          
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+<!-----------------------------------PROJECT SECTION----------------------------------------------->    
+    <section id="projects" style="padding-top: 8rem;">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Projects</h1>
+      <div class="Skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/banner-colmar.png"
+                alt="Colmar-Academy-Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="Skills-sub-title project-title">Colmar Academy Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/i-Prajwalsapat/Colmar_Academy_Project')"
+                >
+                Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://i-prajwalsapat.github.io/Colmar_Academy_Project/')"
+              >
+              Live Demo
+            </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/excursion.png"
+                alt="Excursion"
+                class="project-img"
+              />
+            </div>
+            <h2 class="Skills-sub-title project-title">Excursion</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/i-Prajwalsapat/Excursion-Project')"
+              >
+              Github
+            </button>
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open(' https://i-prajwalsapat.github.io/Excursion-Project/')"
+            >
+            Live Demo
+          </button>
+            </div>
+          </div>
+
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/spotify.png"
+                alt="Spotify Clone"
+                class="project-img"
+              />
+            </div>
+            <h2 class="Skills-sub-title project-title">Spotify Clone</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/i-Prajwalsapat/Excursion-Project')"
+              >
+              Github
+            </button>
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open(' https://i-prajwalsapat.github.io/Excursion-Project/')"
+            >
+            Live Demo
+          </button>
+            </div>
+          </div> -->
+          
+        </div> 
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+      </section>
+<!----------------------------------------------CERTIFICATIONS-----------------------------------------------------> 
+<section class="certification">
+<div id="certification" class="certification-container">
+  <p>Explore My</p>
+  <h2><span>Certifications</span></h2>
+  <div class="certification-section">
+      <!-- Certification 1 -->
+      <div class="certification-card">
+          <h3>Advance Java</h3>
+          <p><strong>Issued By:</strong> Codecademy</p>
+          <p><strong>Completion Year:</strong> 2024</p>
+          <a href="assets/Prajwal_Sapat_Learn_Advanced_Java_Course_Certificate.pdf" class="view-button" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Certification 2 -->
+      <div class="certification-card">
+          <h3>Learn SQL</h3>
+          <p><strong>Issued By:</strong> Codecademy</p>
+          <p><strong>Completion Year:</strong> 2024</p>
+          <a href="assets/Prajwal_Sapat_Learn_SQL_Cource_Certificate.pdf" class="view-button" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Certification 3 -->
+      <div class="certification-card">
+          <h3>HTML and CSS</h3>
+          <p><strong>Issued By:</strong> Codecademy</p>
+          <p><strong>Completion Year:</strong> 2024</p>
+          <a href="assets/Prajwal_Sapat_Build_a_Website_with_HTML_CSS&GitHub_Pages_Skill_Path.pdf" class="view-button" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Certification 4 -->
+      <div class="certification-card">
+        <h3>Git and GitHub</h3>
+        <p><strong>Issued By:</strong> Codecademy</p>
+        <p><strong>Completion Year:</strong> 2024</p>
+        <a href="assets/Prajwal_Sapat Git & GitHub certificate.pdf" class="view-button" target="_blank">View Certificate</a>
+    </div>
+
+    <!-- Certification 5 -->
+    <div class="certification-card">
+      <h3>JavaScript</h3>
+      <p><strong>Issued By:</strong> Codecademy</p>
+      <p><strong>Completion Year:</strong> 2024</p>
+      <a href="assets/Prajwal_Sapat_Learn_JavaScript_Course_Certificate.pdf" class="view-button" target="_blank">View Certificate</a>
+  </div>
+
+  <!-- Certification 6 -->
+  <div class="certification-card">
+    <h3>SpringBoot</h3>
+    <p><strong>Issued By:</strong> Codecademy</p>
+    <p><strong>Completion Year:</strong> 2024</p>
+    <a href="assets/Prajwal_Sapat_Learn_Spring_Course_Certificate.pdf" class="view-button" target="_blank">View Certificate</a>
+</div>
+  </div>
+</div>
+<img
+src="./assets/arrow.png"
+alt="Arrow icon"
+class="icon arrow"
+onclick="location.href='./#contact'"
+/>
+</section>
+<!--------------------------------------CONTACT SECTION-------------------------------------------------------------->      
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:prajwalsapat19@gmail.com">prajwalsapat19@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/prajwal-sapat-8633b5288" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a class="nav-contact" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Prajwal Sapat. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!----------------------------------------------------------------------------------------------------------->
